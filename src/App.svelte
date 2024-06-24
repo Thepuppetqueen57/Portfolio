@@ -1,11 +1,11 @@
 <script lang="ts">
   const infohref = () => {
     // look ik info.php is only the my server but hey this works on the actual server so shu-
-    window.location.href = "info.php"
+    window.location.href = "https://thepuppet57.141412.xyz/info.php"
   }
 
   function tpsreal() {
-    window.location.href = "tps"
+    window.location.href = "https://thepuppet57.141412.xyz/tps"
   }
 </script>
 
