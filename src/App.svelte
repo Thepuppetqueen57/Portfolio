@@ -1,11 +1,10 @@
 <script lang="ts">
   const infohref = () => {
-    // look ik info.php is only the my server but hey this works on the actual server so shu-
-    window.location.href = "https://thepuppet57.141412.xyz/info.php"
+    window.location.href = "https://thepuppet57.alwaysdata.net/info.php"
   }
 
   function tpsreal() {
-    window.location.href = "https://thepuppet57.141412.xyz/tps"
+    window.location.href = "https://thepuppet57.alwaysdata.net/tps"
   }
 </script>
 
@@ -23,6 +22,12 @@
   $purple: #370664;
   $purpletext: #420068;
   $lightgray: #b6b6b6;
+
+  :global(body), :global(html) {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+  }
 
   #some-bad-id-cuz-idk-what-to-name-these {
     display: flex;
